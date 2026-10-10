@@ -4,7 +4,7 @@ Website informasi kampus dengan 4 halaman (Beranda, Profil, Kegiatan, Kontak)
 menggunakan HTML, CSS, dan JavaScript murni tanpa framework.
 
 ## Anggota Kelompok
-- **[Nama Ketua]** — [username-github] — Ketua / Integrator
+- **[Fatkhur Rokhman Abdillah]** — [Fatkhur-Rokhman-Abdillah-cmd] — Ketua / Integrator
 - **[Nama Anggota 2]** — [username-github] — Beranda
 - **[Nama Anggota 3]** — [username-github] — Profil & Kegiatan
 - **[Nama Anggota 4]** — [username-github] — Kontak & JavaScript
