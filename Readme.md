@@ -6,8 +6,8 @@ menggunakan HTML, CSS, dan JavaScript murni tanpa framework.
 ## Anggota Kelompok
 - **[Fatkhur Rokhman Abdillah]** — [Fatkhur-Rokhman-Abdillah-cmd] — Ketua / Integrator
 - **[Nama Anggota 2]** — [username-github] — Beranda
-- **[Nama Anggota 3]** — [username-github] — Profil & Kegiatan
-- **[Nama Anggota 4]** — [username-github] — Kontak & JavaScript
+- **[Salsabila Apsarini Ardiningrum]** — [salsabila262] — Profil & Kegiatan
+- **[Naufal Basyirul Wafir Thoriq]** — [NBWT07] — Kontak & JavaScript
 
 ## Struktur
 - `index.html` — Beranda
