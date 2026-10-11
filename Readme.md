@@ -5,7 +5,11 @@ menggunakan HTML, CSS, dan JavaScript murni tanpa framework.
 
 ## Anggota Kelompok
 - **[Fatkhur Rokhman Abdillah]** — [Fatkhur-Rokhman-Abdillah-cmd] — Ketua / Integrator
+<<<<<<< HEAD
 - **[Manaf Athalah Ishak]** — [Manafath] — Beranda
+=======
+- **[Manaf Athalah Ishak] — [Manafath] — Beranda
+>>>>>>> ae9a67c (Update Readme)
 - **[Salsabila Apsarini Ardiningrum]** — [salsabila262] — Profil & Kegiatan
 - **[Naufal Basyirul Wafir Thoriq]** — [NBWT07] — Kontak & JavaScript
 
