@@ -3,34 +3,157 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Informasi resmi Politeknik Negeri Cilacap: profil kampus, kegiatan, dan informasi akademik.">
   <title>Beranda | Politeknik Negeri Cilacap</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <div class="beranda-topbar">
+    <div class="container beranda-topbar-inner">
+      <span>Politeknik Negeri Cilacap</span>
+      <a href="kontak.html">Hubungi kami <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
 
-  <!-- NAVBAR -->
   <header class="navbar">
     <div class="container navbar-inner">
-      <a href="index.html" class="logo">PNC</a>
-      <nav class="menu" id="menu">
-        <a href="index.html" class="active">Beranda</a>
+      <a href="index.html" class="logo" aria-label="Politeknik Negeri Cilacap, beranda">PNC</a>
+      <nav class="menu" id="menu" aria-label="Navigasi utama">
+        <a href="index.html" class="active" aria-current="page">Beranda</a>
         <a href="profil.html">Profil</a>
         <a href="kegiatan.html">Kegiatan</a>
         <a href="kontak.html">Kontak</a>
       </nav>
-      <button class="btn-tema" id="tombolTema" type="button">🌙</button>
-      <button class="btn-menu" id="tombolMenu" type="button">☰</button>
+      <div class="navbar-actions">
+        <button class="btn-tema" id="tombolTema" type="button" aria-label="Aktifkan mode gelap">🌙</button>
+        <button class="btn-menu" id="tombolMenu" type="button" aria-label="Buka menu" aria-controls="menu" aria-expanded="false">☰</button>
+      </div>
     </div>
   </header>
 
-  <!-- HERO -->
-  <section class="hero">
-    <div class="container">
-      <h1>Politeknik Negeri Cilacap</h1>
-      <p>Perguruan tinggi vokasi yang menghasilkan lulusan kompeten, siap kerja, dan berdaya saing global.</p>
-      <a href="profil.html" class="btn btn-primary">Jelajahi Program Studi</a>
+  <main>
+    <section class="beranda-hero">
+      <div class="container beranda-hero-inner">
+        <div class="beranda-hero-copy">
+          <span class="beranda-eyebrow"><span aria-hidden="true"></span> Pendidikan vokasi · Cilacap</span>
+          <h1>Belajar hari ini.<br><span>Berkarya untuk esok.</span></h1>
+          <p>Temukan lingkungan belajar yang menghubungkan pengetahuan, keterampilan, dan pengalaman nyata di Politeknik Negeri Cilacap.</p>
+          <div class="beranda-hero-actions">
+            <a href="profil.html" class="btn btn-primary">Jelajahi kampus <span aria-hidden="true">→</span></a>
+            <a href="kegiatan.html" class="beranda-text-link">Lihat kegiatan <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="beranda-hero-note">
+            <span class="beranda-note-icon" aria-hidden="true">✦</span>
+            <span><strong>Belajar dengan praktik</strong><small>Bekal untuk menghadapi dunia profesional</small></span>
+          </div>
+        </div>
+        <div class="beranda-hero-visual">
+          <img src="https://jkb.pnc.ac.id/wp-content/uploads/2024/12/JKB-Lab-Pemrograman-scaled.jpg" alt="Suasana laboratorium pemrograman Politeknik Negeri Cilacap">
+          <div class="beranda-image-caption">
+            <span class="beranda-caption-mark" aria-hidden="true">PNC</span>
+            <span><strong>Ruang untuk mencoba</strong><small>Belajar, bereksplorasi, dan berkembang</small></span>
+            <span class="beranda-caption-arrow" aria-hidden="true">↗</span>
+          </div>
+          <span class="beranda-visual-decoration" aria-hidden="true"></span>
+        </div>
+      </div>
+      <div class="beranda-hero-bottom" aria-hidden="true">
+        <div class="container"><span>POLITEKNIK NEGERI CILACAP</span><span>VOCATIONAL · PRACTICAL · FUTURE-READY</span></div>
+      </div>
+    </section>
+
+    <section class="section beranda-intro">
+      <div class="container">
+        <div class="beranda-section-heading">
+          <div>
+            <span class="beranda-kicker">MENGENAL PNC</span>
+            <h2 class="judul-section">Pendidikan yang dekat dengan praktik.</h2>
+          </div>
+          <p class="subjudul">Jelajahi informasi kampus, aktivitas mahasiswa, dan berbagai hal yang membuat pengalaman belajar di PNC lebih bermakna.</p>
+        </div>
+        <div class="beranda-feature-grid">
+          <a class="beranda-feature-card" href="profil.html">
+            <span class="beranda-feature-number">01</span>
+            <span class="beranda-feature-icon" aria-hidden="true">⌂</span>
+            <h3>Kenali kampus</h3>
+            <p>Pelajari profil, nilai, dan informasi Politeknik Negeri Cilacap.</p>
+            <span class="beranda-feature-link">Tentang PNC <span aria-hidden="true">→</span></span>
+          </a>
+          <a class="beranda-feature-card" href="kegiatan.html">
+            <span class="beranda-feature-number">02</span>
+            <span class="beranda-feature-icon" aria-hidden="true">✳</span>
+            <h3>Jelajahi kegiatan</h3>
+            <p>Lihat aktivitas dan pengalaman yang mewarnai kehidupan kampus.</p>
+            <span class="beranda-feature-link">Kegiatan kampus <span aria-hidden="true">→</span></span>
+          </a>
+          <a class="beranda-feature-card" href="kontak.html">
+            <span class="beranda-feature-number">03</span>
+            <span class="beranda-feature-icon" aria-hidden="true">↗</span>
+            <h3>Terhubung dengan kami</h3>
+            <p>Temukan informasi kontak dan sampaikan pertanyaan kepada PNC.</p>
+            <span class="beranda-feature-link">Informasi kontak <span aria-hidden="true">→</span></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="beranda-spaces">
+      <div class="container beranda-spaces-inner">
+        <div class="beranda-spaces-copy">
+          <span class="beranda-kicker">BELAJAR LEWAT PENGALAMAN</span>
+          <h2>Ide berkembang saat diberi ruang untuk praktik.</h2>
+          <p>Kenali fasilitas dan suasana belajar yang mendukung eksplorasi keterampilan, kolaborasi, dan karya terapan.</p>
+          <a href="profil.html" class="beranda-text-link">Kenali profil kampus <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="beranda-spaces-gallery">
+          <figure class="beranda-gallery-main">
+            <img src="https://jkb.pnc.ac.id/wp-content/uploads/2024/12/JKB-Lab-Teknologi-Jaringan-scaled.jpg" alt="Laboratorium teknologi jaringan">
+            <figcaption>Eksplorasi teknologi</figcaption>
+          </figure>
+          <figure class="beranda-gallery-side">
+            <img src="https://jkb.pnc.ac.id/wp-content/uploads/2024/12/JKB-Lab-Administrasi-Jaringan-scaled.jpg" alt="Ruang praktik administrasi jaringan">
+            <figcaption>Belajar bersama</figcaption>
+          </figure>
+          <span class="beranda-gallery-stamp" aria-hidden="true">Belajar<br>dan berkarya</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="beranda-cta">
+      <div class="container beranda-cta-inner">
+        <div>
+          <span class="beranda-kicker">MULAI DARI SINI</span>
+          <h2>Temukan cerita dan peluangmu di PNC.</h2>
+        </div>
+        <a href="profil.html" class="btn beranda-cta-button">Selengkapnya tentang PNC <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer beranda-footer">
+    <div class="container footer-inner">
+      <div class="beranda-footer-brand">
+        <a href="index.html" class="beranda-footer-logo">PNC<span>.</span></a>
+        <p>Politeknik Negeri Cilacap<br>Pendidikan vokasi untuk masa depan.</p>
+      </div>
+      <div>
+        <h4>Jelajahi</h4>
+        <a href="profil.html">Profil kampus</a>
+        <a href="kegiatan.html">Kegiatan</a>
+        <a href="kontak.html">Kontak</a>
+      </div>
+      <div>
+        <h4>Kunjungi kami</h4>
+        <p>Jl. Dr. Soetomo No. 1, Sidakaya<br>Cilacap, Jawa Tengah</p>
+        <a href="mailto:sekretariat@pnc.ac.id">sekretariat@pnc.ac.id</a>
+        <a href="tel:+62282533329">(0282) 533329</a>
+      </div>
     </div>
-  </section>
+    <div class="container footer-bottom">
+      <span>© 2026 Politeknik Negeri Cilacap</span>
+      <span>Belajar · Bertumbuh · Berkarya</span>
+    </div>
+  </footer>
 
   <script src="js/script.js"></script>
 </body>
