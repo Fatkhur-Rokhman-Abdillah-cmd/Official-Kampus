@@ -28,6 +28,34 @@
       localStorage.setItem(THEME_KEY, isDark ? "dark" : "light");
     });
   }
+
+  const menu = document.getElementById("menu");
+  const menuButton = document.getElementById("tombolMenu");
+
+  if (menu && menuButton) {
+    function setMenuOpen(isOpen) {
+      menu.classList.toggle("buka", isOpen);
+      menuButton.setAttribute("aria-expanded", String(isOpen));
+      menuButton.setAttribute("aria-label", isOpen ? "Tutup menu" : "Buka menu");
+      menuButton.textContent = isOpen ? "×" : "☰";
+    }
+
+    menuButton.addEventListener("click", function () {
+      setMenuOpen(!menu.classList.contains("buka"));
+    });
+
+    menu.addEventListener("click", function (event) {
+      if (event.target instanceof HTMLAnchorElement) {
+        setMenuOpen(false);
+      }
+    });
+
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape") {
+        setMenuOpen(false);
+      }
+    });
+  }
 })();
 
 // ===== BAGIAN MAHASISWA 4 (Kontak) =====
