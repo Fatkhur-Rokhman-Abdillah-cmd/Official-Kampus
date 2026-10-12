@@ -28,5 +28,5 @@ menggunakan HTML, CSS, dan JavaScript murni tanpa framework.
 - Responsive di semua ukuran layar
 
 ## URL
-- Repository: [https://github.com/Fatkhur-Rokhman-Abdillah-cmd/Official-Kampus.git](https://github.com/Fatkhur-Rokhman-Abdillah-cmd/Official-Kampus.git](https://github.com/Fatkhur-Rokhman-Abdillah-cmd/Official-Kampus.git)
+- Repository: https://github.com/Fatkhur-Rokhman-Abdillah-cmd/Official-Kampus.git
 - GitHub Pages: https://fatkhur-rokhman-abdillah-cmd.github.io/Official-Kampus/index.html
