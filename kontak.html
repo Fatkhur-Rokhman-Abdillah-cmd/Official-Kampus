@@ -1,34 +1,309 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kontak | Politeknik Negeri Cilacap</title>
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Kontak | PNC</title>
+
+    <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
 
-  <header class="navbar">
-    <div class="container navbar-inner">
-      <a href="index.html" class="logo">PNC</a>
-      <nav class="menu" id="menu">
-        <a href="index.html">Beranda</a>
-        <a href="profil.html">Profil</a>
-        <a href="kegiatan.html">Kegiatan</a>
-        <a href="kontak.html" class="active">Kontak</a>
-      </nav>
-      <button class="btn-tema" id="tombolTema" type="button">🌙</button>
-      <button class="btn-menu" id="tombolMenu" type="button">☰</button>
-    </div>
-  </header>
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="container navbar-inner">
 
-  <section class="page-header">
-    <div class="container">
-      <h1>Hubungi Kami</h1>
-      <p>Punya pertanyaan? Kirim pesan kepada kami.</p>
-    </div>
-  </section>
+            <a href="index.html" class="logo">
+                PNC
+            </a>
 
-  <script src="js/script.js"></script>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a href="index.html">Beranda</a>
+                    </li>
+
+                    <li>
+                        <a href="profil.html">Profil</a>
+                    </li>
+
+                    <li>
+                        <a href="kegiatan.html">Kegiatan</a>
+                    </li>
+
+                    <li>
+                        <a href="kontak.html" class="active">
+                            Kontak
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <button
+                class="btn-tema"
+                id="tombol-tema"
+                type="button">
+                ☀️
+            </button>
+
+        </div>
+    </header>
+
+
+    <!-- HEADER HALAMAN -->
+    <section class="page-header">
+
+        <div class="container">
+
+            <h1>Kontak Kampus</h1>
+
+            <p>
+                Hubungi kami untuk informasi lebih lanjut
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- INFORMASI KONTAK -->
+    <section class="section">
+
+        <div class="container">
+
+            <h2 class="judul-section">
+                Informasi Kontak
+            </h2>
+
+            <p class="subjudul">
+                Informasi yang dapat digunakan untuk
+                menghubungi Politeknik Negeri Cilacap.
+            </p>
+
+
+            <div class="grid-3">
+
+                <article class="card">
+
+                    <span class="tag">
+                        Alamat
+                    </span>
+
+                    <h3>Politeknik Negeri Cilacap</h3>
+
+                    <p>
+                        Jl. Dr. Soetomo No. 1,
+                        Sidakaya, Cilacap,
+                        Jawa Tengah
+                    </p>
+
+                </article>
+
+
+                <article class="card">
+
+                    <span class="tag">
+                        Email
+                    </span>
+
+                    <h3>Email Program Studi</h3>
+
+                    <p>
+                        informatika@pnc.ac.id
+                    </p>
+
+                </article>
+
+
+                <article class="card">
+
+                    <span class="tag">
+                        Telepon
+                    </span>
+
+                    <h3>Nomor Telepon</h3>
+
+                    <p>
+                        (0282) 533329
+                    </p>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FORM KONTAK -->
+    <section class="section section-alt">
+
+        <div class="container">
+
+            <div class="form-wrapper">
+
+                <h2 class="judul-section">
+                    Kirim Pesan
+                </h2>
+
+                <p class="subjudul">
+                    Silakan isi formulir berikut untuk
+                    mengirimkan pesan kepada kami.
+                </p>
+
+
+                <div class="form">
+
+                    <!-- NAMA -->
+                    <div class="form-group">
+
+                        <label for="nama">
+                            Nama
+                        </label>
+
+                        <input
+                            type="text"
+                            id="nama"
+                            placeholder="Nama Anda"
+                        />
+
+                    </div>
+
+
+                    <!-- EMAIL -->
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="email@contoh.com"
+                        />
+
+                    </div>
+
+
+                    <!-- PESAN -->
+                    <div class="form-group">
+
+                        <label for="pesan">
+                            Pesan
+                        </label>
+
+                        <textarea
+                            id="pesan"
+                            rows="5"
+                            placeholder="Tuliskan pesan Anda di sini"
+                        ></textarea>
+
+                    </div>
+
+
+                    <!-- TOMBOL -->
+                    <button
+                        type="button"
+                        id="tombol-kirim"
+                        class="btn btn-primary btn-block">
+
+                        Kirim Pesan
+
+                    </button>
+
+
+                    <!-- STATUS -->
+                    <p
+                        id="status-form"
+                        class="status">
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer-inner">
+
+                <div>
+                    <h4>PNC</h4>
+
+                    <p>
+                        Politeknik Negeri Cilacap
+                    </p>
+
+                    <p>
+                        D3 Teknik Informatika
+                    </p>
+                </div>
+
+
+                <div>
+                    <h4>Navigasi</h4>
+
+                    <a href="index.html">
+                        Beranda
+                    </a>
+
+                    <a href="profil.html">
+                        Profil
+                    </a>
+
+                    <a href="kegiatan.html">
+                        Kegiatan
+                    </a>
+
+                    <a href="kontak.html">
+                        Kontak
+                    </a>
+                </div>
+
+
+                <div>
+                    <h4>Kontak</h4>
+
+                    <p>
+                        Jl. Dr. Soetomo No. 1,
+                        Cilacap
+                    </p>
+
+                    <p>
+                        informatika@pnc.ac.id
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="footer-bottom">
+
+                <p>
+                    &copy; 2026 Politeknik Negeri Cilacap
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
 </body>
+
 </html>
