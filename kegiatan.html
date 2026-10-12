@@ -3,31 +3,206 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kegiatan | Politeknik Negeri Cilacap</title>
+  <meta name="description" content="Kabar prestasi mahasiswa dan Politeknik Negeri Cilacap di bidang olahraga, budaya, kewirausahaan, dan teknologi.">
+  <title>Prestasi &amp; Kegiatan | Politeknik Negeri Cilacap</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <div class="beranda-topbar">
+    <div class="container beranda-topbar-inner">
+      <span>Politeknik Negeri Cilacap</span>
+      <a href="kontak.html">Hubungi kami <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
 
   <header class="navbar">
     <div class="container navbar-inner">
-      <a href="index.html" class="logo">PNC</a>
-      <nav class="menu" id="menu">
+      <a href="index.html" class="logo" aria-label="Politeknik Negeri Cilacap, beranda">PNC</a>
+      <nav class="menu" id="menu" aria-label="Navigasi utama">
         <a href="index.html">Beranda</a>
         <a href="profil.html">Profil</a>
-        <a href="kegiatan.html" class="active">Kegiatan</a>
+        <a href="kegiatan.html" class="active" aria-current="page">Kegiatan</a>
         <a href="kontak.html">Kontak</a>
       </nav>
-      <button class="btn-tema" id="tombolTema" type="button">🌙</button>
-      <button class="btn-menu" id="tombolMenu" type="button">☰</button>
+      <div class="navbar-actions">
+        <button class="btn-tema" id="tombolTema" type="button" aria-label="Aktifkan mode gelap">🌙</button>
+        <button class="btn-menu" id="tombolMenu" type="button" aria-label="Buka menu" aria-controls="menu" aria-expanded="false">☰</button>
+      </div>
     </div>
   </header>
 
-  <section class="page-header">
-    <div class="container">
-      <h1>Kegiatan &amp; Agenda</h1>
-      <p>Berbagai kegiatan akademik dan prestasi mahasiswa</p>
+  <main>
+    <section class="kegiatan-hero">
+      <div class="container kegiatan-hero-inner">
+        <div>
+          <span class="beranda-eyebrow"><span aria-hidden="true"></span> KABAR KAMPUS · POLITEKNIK NEGERI CILACAP</span>
+          <h1>Prestasi tumbuh dari semangat untuk terus berkarya.</h1>
+          <p>Rayakan pencapaian mahasiswa dan sivitas PNC di berbagai bidang, dari kompetisi nasional hingga kontribusi untuk Cilacap.</p>
+          <a href="#daftar-prestasi" class="kegiatan-hero-link">Jelajahi cerita prestasi <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="kegiatan-hero-aside" aria-label="Prestasi PNC pada Porseni XV 2026">
+          <span class="kegiatan-hero-label">PORSENI XV · 2026</span>
+          <strong>4<span>medali</span></strong>
+          <div class="kegiatan-medal-list">
+            <span><i class="kegiatan-medal kegiatan-medal-emas" aria-hidden="true"></i> 1 emas</span>
+            <span><i class="kegiatan-medal kegiatan-medal-perak" aria-hidden="true"></i> 2 perak</span>
+            <span><i class="kegiatan-medal kegiatan-medal-perunggu" aria-hidden="true"></i> 1 perunggu</span>
+          </div>
+          <span class="kegiatan-hero-footnote">Peringkat ke-26 nasional</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section kegiatan-list" id="daftar-prestasi">
+      <div class="container">
+        <div class="kegiatan-section-heading">
+          <div>
+            <span class="beranda-kicker">CERITA PRESTASI</span>
+            <h2 class="judul-section">Langkah kecil, pencapaian yang membanggakan.</h2>
+          </div>
+          <p class="subjudul">Kisah mahasiswa dan institusi PNC yang berani mengasah potensi serta membawa pulang pencapaian.</p>
+        </div>
+
+        <div class="kegiatan-grid">
+          <article class="kegiatan-card kegiatan-card-featured">
+            <div class="kegiatan-card-art kegiatan-art-medali" aria-hidden="true">
+              <span class="kegiatan-art-symbol">✳</span>
+              <span class="kegiatan-art-caption">PORSENI XV <b>2026</b></span>
+            </div>
+            <div class="kegiatan-card-content">
+              <div class="kegiatan-card-meta">
+                <span class="kegiatan-card-category">Olahraga &amp; Seni</span>
+                <time datetime="2026-08-03">3 Agustus 2026</time>
+              </div>
+              <h3><a href="https://pnc.ac.id/politeknik-negeri-cilacap-raih-empat-medali-pada-porseni-xv-2026/" target="_blank" rel="noopener noreferrer">PNC Raih Empat Medali pada Porseni XV 2026</a></h3>
+              <p>Kontingen PNC menempati peringkat ke-26 nasional di ajang Porseni XV Politeknik se-Indonesia dengan raihan satu emas, dua perak, dan satu perunggu.</p>
+              <a class="kegiatan-read-more" href="https://pnc.ac.id/politeknik-negeri-cilacap-raih-empat-medali-pada-porseni-xv-2026/" target="_blank" rel="noopener noreferrer">Baca cerita <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="kegiatan-card">
+            <div class="kegiatan-card-art kegiatan-art-budaya" aria-hidden="true">
+              <span class="kegiatan-art-symbol">✦</span>
+              <span class="kegiatan-art-caption">DUTA WISATA <b>CILACAP</b></span>
+            </div>
+            <div class="kegiatan-card-content">
+              <div class="kegiatan-card-meta">
+                <span class="kegiatan-card-category">Budaya &amp; Mahasiswa</span>
+                <time datetime="2026-07-22">22 Juli 2026</time>
+              </div>
+              <h3><a href="https://pnc.ac.id/mahasiswa-politeknik-negeri-cilacap-borong-gelar-di-ajang-mas-dan-mbak-cilacap-2026/" target="_blank" rel="noopener noreferrer">Mahasiswa PNC Borong Gelar Mas dan Mbak Cilacap 2026</a></h3>
+              <p>Untuk pertama kalinya, mahasiswa PNC meraih gelar juara utama kategori putra dan putri secara bersamaan dalam pemilihan Duta Wisata Cilacap.</p>
+              <a class="kegiatan-read-more" href="https://pnc.ac.id/mahasiswa-politeknik-negeri-cilacap-borong-gelar-di-ajang-mas-dan-mbak-cilacap-2026/" target="_blank" rel="noopener noreferrer">Baca cerita <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="kegiatan-card">
+            <div class="kegiatan-card-art kegiatan-art-inovasi" aria-hidden="true">
+              <span class="kegiatan-art-symbol">⌁</span>
+              <span class="kegiatan-art-caption">IDE MENJADI <b>USAHA</b></span>
+            </div>
+            <div class="kegiatan-card-content">
+              <div class="kegiatan-card-meta">
+                <span class="kegiatan-card-category">Inovasi &amp; Wirausaha</span>
+                <time datetime="2026-07-11">11 Juli 2026</time>
+              </div>
+              <h3><a href="https://pnc.ac.id/inovasi-kering-tempe-sedoroso-mahasiswa-pnc-raih-pendanaan-p2mw-nasional/" target="_blank" rel="noopener noreferrer">Inovasi “Sedhoroso” Raih Pendanaan P2MW Nasional</a></h3>
+              <p>Empat mahasiswa PNC memperoleh pendanaan Program Pembinaan Mahasiswa Wirausaha 2026 untuk mengembangkan produk kering tempe yang mengangkat kearifan lokal.</p>
+              <a class="kegiatan-read-more" href="https://pnc.ac.id/inovasi-kering-tempe-sedoroso-mahasiswa-pnc-raih-pendanaan-p2mw-nasional/" target="_blank" rel="noopener noreferrer">Baca cerita <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="kegiatan-card">
+            <div class="kegiatan-card-art kegiatan-art-institusi" aria-hidden="true">
+              <span class="kegiatan-art-symbol">✧</span>
+              <span class="kegiatan-art-caption">ANUGERAH <b>DIKTISAINTEK</b></span>
+            </div>
+            <div class="kegiatan-card-content">
+              <div class="kegiatan-card-meta">
+                <span class="kegiatan-card-category">Penghargaan Institusi</span>
+                <time datetime="2025-12-19">19 Desember 2025</time>
+              </div>
+              <h3><a href="https://pnc.ac.id/politeknik-negeri-cilacap-raih-dua-silver-winner-pada-anugerah-diktisaintek-2025/" target="_blank" rel="noopener noreferrer">PNC Raih Dua Silver Winner Anugerah Diktisaintek 2025</a></h3>
+              <p>PNC menerima dua penghargaan Silver Winner dari Kementerian Pendidikan Tinggi, Sains, dan Teknologi atas capaian institusi.</p>
+              <a class="kegiatan-read-more" href="https://pnc.ac.id/politeknik-negeri-cilacap-raih-dua-silver-winner-pada-anugerah-diktisaintek-2025/" target="_blank" rel="noopener noreferrer">Baca cerita <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="kegiatan-card">
+            <div class="kegiatan-card-art kegiatan-art-teknologi" aria-hidden="true">
+              <span class="kegiatan-art-symbol">&lt;/&gt;</span>
+              <span class="kegiatan-art-caption">ITECHNO CUP <b>2025</b></span>
+            </div>
+            <div class="kegiatan-card-content">
+              <div class="kegiatan-card-meta">
+                <span class="kegiatan-card-category">Teknologi</span>
+                <time datetime="2025-10-08">8 Oktober 2025</time>
+              </div>
+              <h3><a href="https://pnc.ac.id/mahasiswa-prodi-teknik-informatika-berhasil-raih-juara-iii-front-end-development-di-itechno-cup-2025/" target="_blank" rel="noopener noreferrer">Mahasiswa Teknik Informatika Juara III Front End Development</a></h3>
+              <p>Tiga mahasiswa Teknik Informatika PNC meraih juara ketiga pada kompetisi Front End Development ITechno Cup 2025 yang diselenggarakan Politeknik Negeri Jakarta.</p>
+              <a class="kegiatan-read-more" href="https://pnc.ac.id/mahasiswa-prodi-teknik-informatika-berhasil-raih-juara-iii-front-end-development-di-itechno-cup-2025/" target="_blank" rel="noopener noreferrer">Baca cerita <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <article class="kegiatan-card">
+            <div class="kegiatan-card-art kegiatan-art-desain" aria-hidden="true">
+              <span class="kegiatan-art-symbol">◈</span>
+              <span class="kegiatan-art-caption">KARYA VISUAL <b>ITECHNO</b></span>
+            </div>
+            <div class="kegiatan-card-content">
+              <div class="kegiatan-card-meta">
+                <span class="kegiatan-card-category">Kreativitas &amp; Desain</span>
+                <time datetime="2025-10-06">6 Oktober 2025</time>
+              </div>
+              <h3><a href="https://pnc.ac.id/mahasiswa-trm-pnc-sabet-juara-poster-digital-itechno-cup-2025/" target="_blank" rel="noopener noreferrer">Mahasiswa TRM PNC Juara Poster Digital ITechno Cup 2025</a></h3>
+              <p>Mahasiswa Program Studi Teknologi Rekayasa Multimedia PNC meraih prestasi pada kategori poster digital di ajang nasional ITechno Cup 2025.</p>
+              <a class="kegiatan-read-more" href="https://pnc.ac.id/mahasiswa-trm-pnc-sabet-juara-poster-digital-itechno-cup-2025/" target="_blank" rel="noopener noreferrer">Baca cerita <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+        </div>
+
+        <div class="kegiatan-source-note">
+          <span>Berita dan prestasi PNC</span>
+          <a href="https://pnc.ac.id/prestasi/" target="_blank" rel="noopener noreferrer">Kunjungi halaman resmi PNC <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="kegiatan-cta">
+      <div class="container kegiatan-cta-inner">
+        <div>
+          <span class="beranda-kicker">JADI BAGIAN DARI CERITA BERIKUTNYA</span>
+          <h2>Setiap pencapaian berawal dari kesempatan untuk berkembang.</h2>
+        </div>
+        <a href="profil.html" class="btn kegiatan-cta-button">Kenali PNC <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer beranda-footer">
+    <div class="container footer-inner">
+      <div class="beranda-footer-brand">
+        <a href="index.html" class="beranda-footer-logo">PNC<span>.</span></a>
+        <p>Politeknik Negeri Cilacap<br>Pendidikan vokasi untuk masa depan.</p>
+      </div>
+      <div>
+        <h4>Jelajahi</h4>
+        <a href="profil.html">Profil kampus</a>
+        <a href="kegiatan.html">Kegiatan</a>
+        <a href="kontak.html">Kontak</a>
+      </div>
+      <div>
+        <h4>Kunjungi kami</h4>
+        <p>Jl. Dr. Soetomo No. 1, Sidakaya<br>Cilacap, Jawa Tengah</p>
+        <a href="mailto:sekretariat@pnc.ac.id">sekretariat@pnc.ac.id</a>
+        <a href="tel:+62282533329">(0282) 533329</a>
+      </div>
     </div>
-  </section>
+    <div class="container footer-bottom">
+      <span>© 2026 Politeknik Negeri Cilacap</span>
+      <span>Belajar · Bertumbuh · Berkarya</span>
+    </div>
+  </footer>
 
   <script src="js/script.js"></script>
 </body>

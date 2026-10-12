@@ -3,32 +3,196 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Profil | Politeknik Negeri Cilacap</title>
+  <meta name="description" content="Kenali Politeknik Negeri Cilacap, kampus vokasi yang mendorong pembelajaran terapan, kolaborasi, dan karya.">
+  <title>Profil Kampus | Politeknik Negeri Cilacap</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <div class="beranda-topbar">
+    <div class="container beranda-topbar-inner">
+      <span>Politeknik Negeri Cilacap</span>
+      <a href="kontak.html">Hubungi kami <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
 
   <header class="navbar">
     <div class="container navbar-inner">
-      <a href="index.html" class="logo">PNC</a>
-      <nav class="menu" id="menu">
+      <a href="index.html" class="logo" aria-label="Politeknik Negeri Cilacap, beranda">PNC</a>
+      <nav class="menu" id="menu" aria-label="Navigasi utama">
         <a href="index.html">Beranda</a>
-        <a href="profil.html" class="active">Profil</a>
+        <a href="profil.html" class="active" aria-current="page">Profil</a>
         <a href="kegiatan.html">Kegiatan</a>
         <a href="kontak.html">Kontak</a>
       </nav>
-      <button class="btn-tema" id="tombolTema" type="button">🌙</button>
-      <button class="btn-menu" id="tombolMenu" type="button">☰</button>
+      <div class="navbar-actions">
+        <button class="btn-tema" id="tombolTema" type="button" aria-label="Aktifkan mode gelap">🌙</button>
+        <button class="btn-menu" id="tombolMenu" type="button" aria-label="Buka menu" aria-controls="menu" aria-expanded="false">☰</button>
+      </div>
     </div>
   </header>
 
-  <section class="page-header">
-    <div class="container">
-      <h1>Profil Kampus</h1>
-      <p>Mengenal lebih dekat Politeknik Negeri Cilacap</p>
+  <main>
+    <section class="profil-hero">
+      <div class="container profil-hero-inner">
+        <div class="profil-hero-copy">
+          <span class="beranda-eyebrow"><span aria-hidden="true"></span> TENTANG KAMI · SEJAK 2008</span>
+          <h1>Tumbuh bersama pendidikan vokasi.</h1>
+          <p>Berawal dari gagasan untuk memperluas akses pendidikan tinggi bagi masyarakat Cilacap, Politeknik Negeri Cilacap terus berkembang menyiapkan lulusan yang berdaya saing.</p>
+          <a href="#sejarah-pnc" class="btn btn-primary">Jelajahi perjalanan kami <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="profil-hero-visual">
+          <img src="https://pnc.ac.id/wp-content/uploads/2026/07/cover-web-2-e1785398660804.png" alt="Sampul resmi Politeknik Negeri Cilacap">
+          <div class="profil-image-caption">
+            <span class="beranda-caption-mark" aria-hidden="true">PNC</span>
+            <span><strong>Politeknik Negeri Cilacap</strong><small>Pendidikan vokasi untuk masa depan</small></span>
+          </div>
+          <span class="profil-visual-note">POLITEKNIK NEGERI CILACAP</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section profil-overview" id="sejarah-pnc">
+      <div class="container">
+        <div class="profil-section-heading">
+          <span class="beranda-kicker">PERJALANAN KAMI</span>
+          <h2 class="judul-section">Dari gagasan daerah menjadi perguruan tinggi negeri.</h2>
+        </div>
+        <div class="profil-overview-grid">
+          <div class="profil-overview-copy">
+            <p>Politeknik Negeri Cilacap berawal dari gagasan Bupati Cilacap, Probo Yulastoro, pada 2006. Gagasan ini bertujuan meningkatkan taraf hidup masyarakat melalui pendidikan vokasi, sekaligus mendukung Cilacap sebagai daerah pro-investasi. Pada 2007, Yayasan Dharmaning Kawula Cilacap dan Tim Satuan Pelaksana Kegiatan dibentuk untuk mengelola hibah pemerintah kabupaten bagi pendirian politeknik.</p>
+            <p>Dengan dukungan hibah dari pemerintah pusat dan Kabupaten Cilacap serta lahan seluas 10 hektare, Politeknik Cilacap resmi berdiri pada 8 Juli 2008 melalui izin Dikti No. 125/D/O/2008. Pada awal berdiri, kampus ini membuka D3 Teknik Elektronika, D3 Teknik Informatika, dan D3 Teknik Mesin.</p>
+            <p>Pada 3 Oktober 2014, Politeknik Cilacap resmi beralih status menjadi Politeknik Negeri Cilacap berdasarkan Peraturan Menteri Pendidikan dan Kebudayaan Nomor 102 Tahun 2014. Peresmian simbolis dilaksanakan pada 6 Oktober 2014 di Surabaya.</p>
+          </div>
+          <aside class="profil-facts" aria-label="Tonggak perjalanan Politeknik Negeri Cilacap">
+            <div class="profil-fact">
+              <span class="profil-fact-icon" aria-hidden="true">✦</span>
+              <div><small>2006</small><strong>Gagasan pendirian politeknik</strong></div>
+            </div>
+            <div class="profil-fact">
+              <span class="profil-fact-icon" aria-hidden="true">⌂</span>
+              <div><small>8 JULI 2008</small><strong>Politeknik Cilacap berdiri</strong></div>
+            </div>
+            <div class="profil-fact">
+              <span class="profil-fact-icon" aria-hidden="true">↗</span>
+              <div><small>3 OKTOBER 2014</small><strong>Resmi menjadi PNC</strong></div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt profil-pendekatan" id="program-studi">
+      <div class="container">
+        <div class="profil-section-heading">
+          <span class="beranda-kicker">PENDIDIKAN VOKASI</span>
+          <h2 class="judul-section">Tiga jurusan, beragam jalur untuk berkembang.</h2>
+          <p class="subjudul">PNC kini memiliki 13 program studi: 4 program Diploma 3 dan 9 program Sarjana Terapan.</p>
+        </div>
+        <div class="profil-jurusan-grid">
+          <article class="profil-jurusan-card">
+            <span class="profil-jurusan-number">01 / REKAYASA</span>
+            <h3>Rekayasa Mesin dan Industri Pertanian</h3>
+            <ul>
+              <li>D3 Teknik Mesin</li>
+              <li>Sarjana Terapan Teknik Pengendalian Pencemaran Lingkungan</li>
+              <li>Sarjana Terapan Pengembangan Produk Agroindustri</li>
+              <li>Sarjana Terapan Teknologi Rekayasa Energi Terbarukan</li>
+              <li>Sarjana Terapan Teknologi Rekayasa Kimia Industri</li>
+            </ul>
+          </article>
+          <article class="profil-jurusan-card">
+            <span class="profil-jurusan-number">02 / REKAYASA</span>
+            <h3>Rekayasa Elektro dan Mekatronika</h3>
+            <ul>
+              <li>D3 Teknik Elektronika</li>
+              <li>D3 Teknik Listrik</li>
+              <li>Sarjana Terapan Teknologi Rekayasa Mekatronika</li>
+            </ul>
+          </article>
+          <article class="profil-jurusan-card">
+            <span class="profil-jurusan-number">03 / KOMPUTER &amp; BISNIS</span>
+            <h3>Komputer dan Bisnis</h3>
+            <ul>
+              <li>D3 Teknik Informatika</li>
+              <li>Sarjana Terapan Rekayasa Keamanan Siber</li>
+              <li>Sarjana Terapan Teknologi Rekayasa Multimedia</li>
+              <li>Sarjana Terapan Akuntansi Lembaga Keuangan Syariah</li>
+              <li>Sarjana Terapan Teknologi Rekayasa Perangkat Lunak</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section profil-lembaga">
+      <div class="container">
+        <div class="profil-section-heading">
+          <span class="beranda-kicker">PENGEMBANGAN KOMPETENSI</span>
+          <h2 class="judul-section">Bekal kompetensi untuk memasuki dunia kerja.</h2>
+          <p class="subjudul">Berbagai lembaga dan program mendukung pengembangan keterampilan mahasiswa serta lulusan PNC.</p>
+        </div>
+        <div class="profil-lembaga-grid">
+          <article class="profil-lembaga-card">
+            <span aria-hidden="true">✓</span>
+            <h3>Lembaga Sertifikasi Profesi</h3>
+            <p>LSP-P1 PNC berafiliasi dengan Badan Nasional Sertifikasi Profesi (BNSP).</p>
+          </article>
+          <article class="profil-lembaga-card">
+            <span aria-hidden="true">⌘</span>
+            <h3>Cisco Networking Academy</h3>
+            <p>Program pembelajaran untuk memperkuat kompetensi di bidang jaringan.</p>
+          </article>
+          <article class="profil-lembaga-card">
+            <span aria-hidden="true">↗</span>
+            <h3>MikroTik Academy PNC</h3>
+            <p>Akademi yang mendukung pengembangan keterampilan teknologi jaringan.</p>
+          </article>
+          <article class="profil-lembaga-card">
+            <span aria-hidden="true">文</span>
+            <h3>English Proficiency Test</h3>
+            <p>EPT-PNC mendukung pengembangan dan pengukuran kemampuan bahasa Inggris.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="profil-cta">
+      <div class="container profil-cta-inner">
+        <div>
+          <span class="beranda-kicker">JELAJAHI PNC</span>
+          <h2>Temukan ruang untuk belajar dan berkembang.</h2>
+          <p>Hubungi kami untuk informasi lebih lanjut tentang Politeknik Negeri Cilacap.</p>
+        </div>
+        <a href="kontak.html" class="btn profil-cta-button">Hubungi kami <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer beranda-footer">
+    <div class="container footer-inner">
+      <div class="beranda-footer-brand">
+        <a href="index.html" class="beranda-footer-logo">PNC<span>.</span></a>
+        <p>Politeknik Negeri Cilacap<br>Pendidikan vokasi untuk masa depan.</p>
+      </div>
+      <div>
+        <h4>Jelajahi</h4>
+        <a href="profil.html">Profil kampus</a>
+        <a href="kegiatan.html">Kegiatan</a>
+        <a href="kontak.html">Kontak</a>
+      </div>
+      <div>
+        <h4>Kunjungi kami</h4>
+        <p>Jl. Dr. Soetomo No. 1, Sidakaya<br>Cilacap, Jawa Tengah</p>
+        <a href="mailto:sekretariat@pnc.ac.id">sekretariat@pnc.ac.id</a>
+        <a href="tel:+62282533329">(0282) 533329</a>
+      </div>
     </div>
-  </section>
-  
+    <div class="container footer-bottom">
+      <span>© 2026 Politeknik Negeri Cilacap</span>
+      <span>Belajar · Bertumbuh · Berkarya</span>
+    </div>
+  </footer>
+
   <script src="js/script.js"></script>
 </body>
 </html>
